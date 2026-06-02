@@ -1,0 +1,60 @@
+body{
+    background-color:#004d0f;
+    padding:50px;
+}
+
+#container{
+    background-color:white;
+    border-radius:30px;
+    padding:40px;
+    display:flex;
+    justify-content:space-between;
+}
+
+#left{
+    width:40%;
+}
+
+#right{
+    width:45%;
+    height:550px;
+    background-color:orange;
+    border-radius:20px;
+}
+
+#apple{
+    border:1px solid lightgray;
+    border-radius:30px;
+    width:275px;
+    padding:12px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+input[type="email"],
+input[type="password"]{
+    width:275px;
+    padding:12px;
+    border-radius:30px;
+    border:1px solid lightgray;
+    box-sizing:border-box;
+}
+
+#options{
+    width:275px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+#login{
+    width:275px;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    background-color:orange;
+    color:white;
+    font-weight:bold;
+}
